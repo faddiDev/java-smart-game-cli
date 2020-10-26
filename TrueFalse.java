@@ -6,7 +6,7 @@ import java.util.*;
 
 class TrueFalse{
 	
-	private DB db;
+	private lullaby db;
 	private List<Integer> Truefalse = new ArrayList<>();
 	private List<String> awr = new ArrayList<>();
 	private String[] awrs;
@@ -16,7 +16,7 @@ class TrueFalse{
 	private Scanner scan;
 	
 	TrueFalse(){
-		db = new DB();
+		db = new lullaby();
 		for(int i=0;i<10;i++){
 			Truefalse.add(i);
 		}

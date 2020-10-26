@@ -5,7 +5,7 @@ Author    : Faddi Susanto
 import java.io.*;
 import java.util.*;
 
-class DB{
+class lullaby {
 	
 	private String[][] store;
 	private String[][] scoreS;
@@ -14,7 +14,7 @@ class DB{
 	private FileInputStream finput = null;
 	private FileOutputStream foutput = null;
 	
-	DB(){
+	lullaby() {
 		FileInputStream finput = null;
 		int data;
 		String isi = "";

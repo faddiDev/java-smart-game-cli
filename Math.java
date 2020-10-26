@@ -6,7 +6,7 @@ import java.util.*;
 
 class Math{
 	
-	private DB db;
+	private lullaby db;
 	private List<Integer> MATH = new ArrayList<>();
 	private List<Float> awrs = new ArrayList<>();
 	private List<Float> jwbn = new ArrayList<>();
@@ -18,7 +18,7 @@ class Math{
 	private Random rand;
 	
 	Math(){
-		db = new DB();
+		db = new lullaby();
 		for(int i=0;i<10;i++){
 			MATH.add(i);
 		}

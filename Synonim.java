@@ -6,7 +6,7 @@ import java.util.*;
 
 class Synonim{
 	
-	private DB db;
+	private lullaby db;
 	private List<Integer> Sinonim = new ArrayList<>();
 	private List<Character> awr = new ArrayList<>();
 	private Character[] awrs;
@@ -16,7 +16,7 @@ class Synonim{
 	private Scanner scan;
 	
 	Synonim(){
-		db = new DB();
+		db = new lullaby();
 		for(int i=0;i<10;i++){
 			Sinonim.add(i);
 		}

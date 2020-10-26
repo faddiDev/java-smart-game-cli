@@ -7,7 +7,7 @@ import java.util.Scanner;
 class Init{
 	
 	private Scanner scan;
-	private DB db;
+	private lullaby db;
 	private QA qa;
 	private Math math;
 	private Antonim antonim;
@@ -16,7 +16,7 @@ class Init{
 	private String[][] isi;
 	
 	Init(){
-		db = new DB();
+		db = new lullaby();
 		begin();
 	}
 	

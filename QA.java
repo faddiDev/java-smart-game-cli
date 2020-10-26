@@ -6,7 +6,7 @@ import java.util.*;
 
 class QA{
 	
-	private DB db;
+	private lullaby db;
 	private List<Integer> QA = new ArrayList<>();
 	private List<Character> awr = new ArrayList<>();
 	private Character[] awrs;
@@ -16,7 +16,7 @@ class QA{
 	private Scanner scan;
 	
 	QA(){
-		db = new DB();
+		db = new lullaby();
 		for(int i=0;i<10;i++){
 			QA.add(i);
 		}

@@ -6,7 +6,7 @@ import java.util.*;
 
 class Antonim{
 	
-	private DB db;
+	private lullaby db;
 	private List<Integer> Antonim = new ArrayList<>();
 	private List<Character> awr = new ArrayList<>();
 	private Character[] awrs;
@@ -16,7 +16,7 @@ class Antonim{
 	private Scanner scan;
 	
 	Antonim(){
-		db = new DB();
+		db = new lullaby();
 		for(int i=0;i<10;i++){
 			Antonim.add(i);
 		}
